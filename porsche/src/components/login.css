@@ -1,0 +1,53 @@
+/* full screen background */
+.login-container {
+  height: 97vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://images-porsche.imgix.net/-/media/A157716108094013943C89A8775C2249_5B4CC240C33247E7B7F2781DD2EC83BC_020-info-slider_2-1_Porsche-Wappen_01?w=1299&q=85&auto=format");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  backdrop-filter: blur(5px);
+}
+
+
+.login-box {
+  background: rgba(255, 255, 255, 0.18);
+  padding: 40px;
+  border-radius: 15px;
+  backdrop-filter: blur(12px);
+  box-shadow: 0px 0px 25px rgba(255, 255, 255, 0.4);
+  text-align: center;
+  width: 300px;
+}
+
+.login-box h3 {
+  color: rgba(5, 5, 5, 0.942);
+  margin-bottom: 20px;
+  font-size: 24px;
+  letter-spacing: 1px;
+}
+
+.login-box input {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+}
+.but{
+    background-color: rgba(0, 0, 0, 0.327);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.but:hover{
+    background-color: rgba(0, 0, 0, 0.555);
+}
+

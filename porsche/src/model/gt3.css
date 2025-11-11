@@ -1,0 +1,32 @@
+.pic{
+    width: 100%;
+    height: 97vh;  
+    margin: 0px;
+    padding: 0px;
+}
+h2{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    margin-top: 20px;
+}
+p{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    margin: 20px;
+}
+.butt{
+    margin-left: 48%;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.butt:hover{
+    background-color: grey;
+}

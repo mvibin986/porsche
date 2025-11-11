@@ -1,0 +1,36 @@
+.home-container{
+    height: 97vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    background-image: url("https://cdn.dicklovett.co.uk/uploads/used_stock_image/1_2614761.jpg?v=1762234351");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    backdrop-filter: blur(5px);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1,h3{
+    color: black;
+    margin-top: 20px;
+    font-size: 48px;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 4px #222020ec;
+    text-align: center;
+}
+.img{
+    width: 450px;
+    height: 300px;
+    margin-top: 50px;
+    margin-right: 20px;
+    margin-left: 30px;
+}
+.card{
+    display: grid;
+    display: inline-block;
+    transition: transform 0.2s;
+}
+.card:hover {
+    transform: scale(1.05);
+}
