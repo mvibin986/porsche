@@ -1,36 +1,143 @@
-.home-container{
-    height: 97vh;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: top;
-    background-image: url("https://cdn.dicklovett.co.uk/uploads/used_stock_image/1_2614761.jpg?v=1762234351");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    backdrop-filter: blur(5px);
-    font-family: Georgia, 'Times New Roman', Times, serif;
+/* ===== Overall Page Styling ===== */
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(180deg, #0a0a0a, #1b1b1b, #000);
+  color: #fff;
+  overflow-x: hidden;
 }
-h1,h3{
-    color: black;
-    margin-top: 20px;
-    font-size: 48px;
-    letter-spacing: 2px;
-    text-shadow: 2px 2px 4px #222020ec;
-    text-align: center;
+
+/* ===== Home Section ===== */
+.home-container {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url("https://s3.us-east-2.amazonaws.com/prod.mm.com/uploads/2022/08/17/1660752547_img_34_mmthumb.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  position: relative;
+  box-shadow: inset 0 0 100px rgba(255, 255, 255, 0.284);
 }
-.img{
-    width: 450px;
-    height: 300px;
-    margin-top: 50px;
-    margin-right: 20px;
-    margin-left: 30px;
+
+/* Dim background overlay */
+.home-container::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
 }
-.card{
-    display: grid;
-    display: inline-block;
-    transition: transform 0.2s;
+
+.home-content {
+  position: relative;
+  z-index: 1;
 }
+
+.home-content h1 {
+  font-size: 3rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #ffffff;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+
+.home-content h3 {
+  margin-top: 10px;
+  font-weight: 400;
+  font-size: 1.3rem;
+  color: #c0c0c0;
+}
+
+/* ===== Discover Section ===== */
+h1 {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 2rem;
+  color: #d32f2f;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+/* ===== Card Container ===== */
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+  padding: 40px 20px;
+}
+
+/* ===== Card Style ===== */
+.card {
+  position: relative;
+  width: 260px;
+  height: 180px;
+  border-radius: 12px;
+  overflow: hidden;
+  cursor: pointer;
+  background: #111;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+}
+
 .card:hover {
-    transform: scale(1.05);
+  transform: translateY(-5px);
+  box-shadow: 0 6px 25px rgba(255, 0, 0, 0.3);
 }
+
+/* ===== Car Image ===== */
+.img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: 0.4s ease;
+  filter: brightness(85%);
+}
+
+.card:hover .img {
+  filter: brightness(70%);
+  transform: scale(1.05);
+}
+
+/* ===== Overlay Text on Hover ===== */
+.card h3 {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 500;
+  opacity: 0;
+  transition: opacity 0.4s ease, bottom 0.4s ease;
+  text-shadow: 0 2px 6px rgba(0, 0, 0, 0.8);
+}
+
+.card:hover h3 {
+  opacity: 1;
+  bottom: 20px;
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 768px) {
+  .home-container {
+    height: 60vh;
+  }
+
+  .home-content h1 {
+    font-size: 2.2rem;
+  }
+
+  .home-content h3 {
+    font-size: 1rem;
+  }
+
+  .card {
+    width: 90%;
+    height: 200px;
+  }
+}
+

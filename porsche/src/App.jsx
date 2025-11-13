@@ -17,7 +17,7 @@ export default function App() {
           <Route path="/home" element={<Home />} />
           <Route path="/911" element={<Porsche911 />} />
           <Route path="/718" element={<Porsche718 />} />
-          <Route path="/GTR" element={<GTR />} />
+          <Route path="/GT3" element={<GTR />} />
           <Route path="/taycan" element={<Taycan />} />
           <Route path="/GT" element={<Turbogt />} />
           <Route path="/S" element={<Turbos />} />

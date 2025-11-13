@@ -1,5 +1,5 @@
 import React from 'react'
-import "./porsche911.css"
+import "./car.css"
 import {Link} from "react-router-dom"
 export default function Turbos() {
   return (

@@ -1,5 +1,5 @@
 import React from 'react'
-import "./gt3.css"
+import "./car.css"
 import {Link} from "react-router-dom"
 export default function GTR() {
   return (

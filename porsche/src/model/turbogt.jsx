@@ -1,6 +1,6 @@
 import React from 'react'
 import {Link} from "react-router-dom"
-
+import "./car.css"
 export default function Turbogt() {
   return (
     <>

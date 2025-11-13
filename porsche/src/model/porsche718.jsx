@@ -1,5 +1,5 @@
 import React from 'react'
-import "./porsche718.css"
+
 import {Link} from "react-router-dom"
 export default function Porsche718() {
   return (
