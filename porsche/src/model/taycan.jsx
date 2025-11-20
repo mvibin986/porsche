@@ -17,7 +17,7 @@ export default function Taycan() {
       <h2>Engine</h2>
       <p>The Porsche Taycan is powered by a state-of-the-art electric drivetrain that delivers impressive performance and efficiency. Depending on the model variant, the Taycan features one or two electric motors that provide instant torque and rapid acceleration. The Taycan Turbo S, for example, can produce up to 750 horsepower with overboost, allowing it to accelerate from 0 to 60 mph in just 2.4 seconds. The vehicle is equipped with a high-voltage battery pack that offers a competitive range, with fast-charging capabilities that enable quick recharging times. The Taycan also features advanced thermal management systems to optimize battery performance and longevity. With its cutting-edge electric technology, the Porsche Taycan not only delivers thrilling performance on the road but also represents a significant step forward in sustainable mobility.</p>
     </div>
-    <Link to="/home"><button className='butt'>BACK</button></Link>
+    <Link to="/home"><button className='butt'>⬅</button></Link>
     </>
   )
 }

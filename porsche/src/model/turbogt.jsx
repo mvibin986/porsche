@@ -17,7 +17,7 @@ export default function Turbogt() {
       <h2>Engine</h2>
       <p>The Porsche 911 Turbo GT is powered by a high-performance turbocharged flat-six engine that delivers exhilarating performance and responsiveness. The engine typically produces over 640 horsepower, allowing the Turbo GT to accelerate from 0 to 60 mph in just around 2.7 seconds. It features advanced technologies such as direct fuel injection, variable valve timing, and a lightweight construction that contributes to its responsiveness and efficiency. The Turbo GT's engine is paired with Porsche's advanced dual-clutch automatic transmission, providing drivers with an engaging and dynamic driving experience. This powertrain setup not only delivers thrilling performance on the road but also ensures that the Turbo GT remains true to Porsche's racing heritage.</p>
     </div>
-    <Link to="/home"><button className='butt'>BACK</button></Link>
+    <Link to="/home"><button className='butt'>⬅</button></Link>
     </>
   )
 }

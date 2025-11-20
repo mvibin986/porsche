@@ -18,7 +18,7 @@ export default function Porsche911() {
 
 
     </div>
-    <Link to="/home"><button className='butt'>BACK</button></Link>
+    <Link to="/home"><button className='butt'>⬅</button></Link>
     
     </> 
   )

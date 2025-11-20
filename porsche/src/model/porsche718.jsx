@@ -16,7 +16,7 @@ export default function Porsche718() {
       <h2>Engine</h2>
       <p>The Porsche 718 Cayman is powered by a range of turbocharged flat-four engines that deliver impressive performance and efficiency. The base model typically features a 2.0-liter engine producing around 300 horsepower, while higher-performance variants like the Cayman S come with a 2.5-liter engine generating up to 350 horsepower. These engines are known for their responsiveness, delivering quick acceleration and a thrilling driving experience. The 718 Cayman is often paired with either a precise manual transmission or Porsche's advanced dual-clutch automatic transmission, providing drivers with an engaging and dynamic driving experience. This powertrain setup not only ensures exhilarating performance on the road but also maintains the car's reputation for agility and precision handling.</p>
       </div>
-       <Link to="/home"><button className='butt'>BACK</button></Link>
+       <Link to="/home"><button className='butt'>⬅</button></Link>
 
 
 

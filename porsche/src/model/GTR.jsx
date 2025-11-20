@@ -17,7 +17,7 @@ export default function GTR() {
       <p>The Porsche 911 GT3 is powered by a high-revving naturally aspirated flat-six engine, known for its impressive performance and exhilarating sound. The engine typically produces around 500 horsepower, allowing the GT3 to accelerate from 0 to 60 mph in just over 3 seconds. It features advanced technologies such as direct fuel injection, variable valve timing, and a lightweight construction that contributes to its responsiveness and efficiency. The GT3's engine is paired with a precise manual or dual-clutch automatic transmission, providing drivers with an engaging driving experience. This powertrain setup not only delivers thrilling performance on the road but also ensures that the GT3 remains true to its racing heritage.</p>
     </div>
     
-   <Link to="/home"><button className='butt'>BACK</button></Link>
+   <Link to="/home"><button className='butt'>⬅</button></Link>
     
     </>
   )
