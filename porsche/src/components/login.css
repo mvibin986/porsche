@@ -1,4 +1,4 @@
-/* Full background setup */
+
 .login-container {
   height: 100vh;
   width: 100%;
@@ -8,7 +8,7 @@
   background: url("https://images-porsche.imgix.net/-/media/A157716108094013943C89A8775C2249_5B4CC240C33247E7B7F2781DD2EC83BC_020-info-slider_2-1_Porsche-Wappen_01?w=1299&q=85&auto=format") center/cover no-repeat;
 }
 
-/* Glass box */
+
 .login-box {
   width: 320px;
   padding: 40px 35px;
@@ -19,7 +19,6 @@
   text-align: center;
 }
 
-/* Heading */
 .login-box h3 {
   margin-bottom: 25px;
   font-size: 22px;
@@ -28,7 +27,7 @@
   letter-spacing: 0.5px;
 }
 
-/* Input fields */
+
 .login-box input {
   width: 100%;
   padding: 10px 7px;
@@ -53,7 +52,7 @@
   box-shadow: 0 0 6px rgba(255, 0, 0, 0.4);
 }
 
-/* Button */
+
 .but {
   width: 50%;
   padding: 11px 0;

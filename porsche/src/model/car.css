@@ -1,4 +1,4 @@
-/* ===== Root Colors ===== */
+
 :root {
   --primary: #ff2e2e;
   --accent: #ff5f5f;
@@ -6,7 +6,7 @@
   --font: "Poppins", sans-serif;
 }
 
-/* ===== Body ===== */
+
 body {
   margin: 0;
   font-family: var(--font);
@@ -14,12 +14,12 @@ body {
   color: var(--light);
 }
 
-/* ===== Section ===== */
+
 section {
   padding: 60px 5%;
 }
 
-/* ===== Images ===== */
+
 .pic,
 .pict,
 .pte {
@@ -30,7 +30,7 @@ section {
   border-bottom: 3px solid var(--primary);
 }
 
-/* ===== Headings ===== */
+
 h2 {
   text-align: center;
   color: var(--primary);
@@ -39,7 +39,7 @@ h2 {
   margin-top: 40px;
 }
 
-/* ===== Paragraphs ===== */
+
 p {
   max-width: 900px;
   margin: 20px auto;
@@ -49,7 +49,6 @@ p {
   text-align: justify;
 }
 
-/* ===== Button ===== */
 .butt {
   display: block;
   margin: 40px auto;
@@ -66,7 +65,7 @@ p {
   background: var(--accent);
 }
 
-/* ===== Scrollbar ===== */
+
 ::-webkit-scrollbar {
   width: 6px;
 }
@@ -75,7 +74,7 @@ p {
   border-radius: 4px;
 }
 
-/* ===== Responsive ===== */
+
 @media (max-width: 768px) {
   .pic, .pict, .pte {
     height: 45vh;
